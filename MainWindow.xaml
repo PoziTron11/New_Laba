@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+		<Button Content="+" HorizontalAlignment="Left" Height="63" Margin="92,181,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+		<Button Content="-" HorizontalAlignment="Left" Height="63" Margin="241,181,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_1"/>
+		<Button Content="/" HorizontalAlignment="Left" Height="63" Margin="392,181,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_2"/>
+		<Button Content="*" HorizontalAlignment="Left" Height="63" Margin="547,181,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click_3"/>
+		<Label Content="Label" HorizontalAlignment="Left" Height="94" Margin="313,294,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.Name="Lb1"/>
+		<TextBox HorizontalAlignment="Left" Height="89" Margin="154,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="80" AutomationProperties.Name="a"/>
+		<TextBox HorizontalAlignment="Left" Height="89" Margin="475,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="84" AutomationProperties.Name="b"/>
+
+	</Grid>
+</Window>
